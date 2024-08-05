@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: #6c25b3aa;
+    font-family: 'gupter';
+    text-align: center;
+}
+
+.main{
+    background-color: #ffffff;
+    width: 35%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10%;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.data{
+    width: 85%;
+    margin-top: 20px;
+    height: 45px;
+    text-align: center;
+}
+
+.submit{
+    width: 87%;
+    margin-top: 50px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-color: #f51b1b;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: .7s;
+}
+img{
+    margin: 10px auto;
+}
+.hidden{
+    display: none;
+}
+.inactive{
+    pointer-events: none;
+    background-color: rgb(167, 167, 167);
+    color: #454647;
+}
+@media screen and (max-width:600px){
+    .main{
+        width: 95%;
+    }
+}
